@@ -9,30 +9,25 @@
     margin: auto;
     font-family: "Old Standard TT", serif;
 }
-
 header {
 	display: flex;
 	background-color: #f79226;
 	margin-right: -15px;
 	padding: 0;
 }
-
 .header-right {
 	padding-right: 5px;
 	font-size: x-large;
 }
-
 .header-right1 {
 	font-style: italic;
 	font-size: x-small;
 }
-
 .title-logo {
     margin-top: 2px;
     height: 40px;
     width: 50px;
 }
-
 hr {
     display: block;
     height: 1px;
@@ -42,73 +37,59 @@ hr {
     margin: 1em 0;
     padding: 0; 
 }
-
 .main {
 	margin-left: 2px;
 }
-
 .text-on-image {
 	max-width: 100%;  
 	height: 500px;
 	background-image: url(images/image-2.jpg);
 	vertical-align: middle;
 }
-
 .text-on-image2 {
 	padding-top: 175px;
     font-weight: bold;
 }
-
 .featured-work {
 	color: #7d97ad;
 	font-size: x-large;
 }
-
 .image1-html {
 	height: 320px;
     max-width: 100%;
     font-size: xx-large;
 }
-
 .link-font {
     font-size: large;
 }
-
 .image2-html {
 	height: 200px;
 	width: 100%;
 }
-
 .image1-css {
 	height: 320px;
     max-width: 100%;
     font-size: xx-large;
 }
-
 .link-font {
     font-size: large;
 }
-
 .image2-css {
 	height: 200px;
 	width: 100%;
 }
-
 .image1-js {
 	height: 320px;
     max-width: 100%;
     font-size: xx-large;
 }
-
 .link-font {
    font-size: large;
 }
-
 .image2-js {
 	height: 200px;
 	width: 100%;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 		.title-logo1{margin: 0;}
 		.header-right{padding-left: 360px;}
@@ -121,7 +102,3 @@ hr {
 		#maincontainer{display: flex; flex-wrap: wrap;}
 }
 
-@media screen and (min-width: 412px) and (max-width: 767px) {
-      
-        
-}
